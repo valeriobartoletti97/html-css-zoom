@@ -47,7 +47,7 @@ main{
 .top-bar{
     position: absolute;
     top:5px;
-    right:5px;
+    right:25px;
     z-index: 1000;
 }
 
@@ -146,4 +146,12 @@ li p{
     height: 100%;
     padding: 20px;
     line-height: 55px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.card:hover{
+    cursor: pointer
 }
