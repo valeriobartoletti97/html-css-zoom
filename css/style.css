@@ -21,6 +21,13 @@
     background-color: var(--color-tertiary);
 }
 
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+
 /* main */
 main{
     color:white;
@@ -32,6 +39,7 @@ main{
 .container{
     height: calc(100vh - 100px);
     background-color: var(--color-primary);
+    overflow-y: auto;
 }
 
 .navbar{
@@ -57,4 +65,35 @@ span .tertiary{
 .fa-minimize{
     padding:5px;
     border-radius: 10px;
+}
+
+/* cards */
+
+.card-wrapper{
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+.card{
+    padding:10px 5px;
+    width: calc(100% / 7);
+    overflow: hidden;
+    position: relative;
+}
+
+img{
+    display:block;
+    width: 15vw;
+    height: calc(15vw / 2);
+    object-fit: cover;
+}
+
+.username{
+    position: absolute;
+    bottom: 10px;
+    background-color: var(--color-tertiary);
+    padding: 3px;
+    font-size: 1.2em;
 }
