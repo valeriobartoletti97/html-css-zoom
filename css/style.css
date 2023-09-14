@@ -17,7 +17,44 @@
     border: 1px solid red;
 }
 
+.tertiary{
+    background-color: var(--color-tertiary);
+}
+
+/* main */
+main{
+    color:white;
+    font-weight: 100;
+    font-size: 0.8em;
+    font-family: 'Noto Sans', sans-serif;
+}
+
 .container{
     height: calc(100vh - 100px);
     background-color: var(--color-primary);
+}
+
+.navbar{
+    background-color: var(--color-secondary);
+    height: 90px;
+}
+
+.top-bar{
+    position: absolute;
+    top:5px;
+    right:5px;
+}
+
+span .tertiary{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.tertiary:first-of-type{
+    margin-right: 8px;
+}
+
+.fa-minimize{
+    padding:5px;
+    border-radius: 10px;
 }
