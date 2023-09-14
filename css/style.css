@@ -1,0 +1,23 @@
+/* general */
+
+:root {
+	--color-primary: #000000;
+	--color-share: #4bc800;
+	--color-secondary: #222222;
+	--color-tertiary: #4a4a4a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug{
+    border: 1px solid red;
+}
+
+.container{
+    height: calc(100vh - 100px);
+    background-color: var(--color-primary);
+}
