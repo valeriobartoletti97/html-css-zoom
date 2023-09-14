@@ -13,9 +13,6 @@
     box-sizing: border-box;
 }
 
-.debug{
-    border: 1px solid red;
-}
 
 .tertiary{
     background-color: var(--color-tertiary);
@@ -44,13 +41,14 @@ main{
 
 .navbar{
     background-color: var(--color-secondary);
-    height: 90px;
+    height: 100px;
 }
 
 .top-bar{
     position: absolute;
     top:5px;
     right:5px;
+    z-index: 1000;
 }
 
 span .tertiary{
@@ -96,4 +94,56 @@ img{
     background-color: var(--color-tertiary);
     padding: 3px;
     font-size: 1.2em;
+}
+
+/* navbar */
+
+.navbar{
+    justify-content: space-between;
+}
+
+ul{
+    list-style: none;
+    padding-top: 20px;
+}
+
+li{
+    padding: 0px 5px;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+li i {
+    font-size: 2.3em;
+    display: inline-block;
+    text-align: center;
+}
+
+li p{
+    padding-top: 15px;
+}
+
+.fa-caret-up{
+    font-size: 1em;
+    padding: 20px 8px;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+    top:0;
+    left: 25%
+}
+
+.bottom-right{
+    color:red;
+    background-color: var(--color-tertiary);
+    height: 100%;
+    padding: 20px;
+    line-height: 55px;
 }
